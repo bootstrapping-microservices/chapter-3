@@ -21,7 +21,7 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 sudo apt-get -yq update
-sudo apt-get -yq install docker-ce
+sudo apt-get -yq install docker-ce=19.03.2
 docker --version
 
 #
