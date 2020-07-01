@@ -5,16 +5,9 @@ const path = require("path");
 const app = express();
 const port = 3000;
 
-if (!process.env.VIDEOS_PATH) {
-    throw new Error("Please specify the path to videos using the environment variable VIDEOS_PATH.");
-}
-
-const VIDEOS_PATH = process.env.VIDEOS_PATH;
-console.log(`Serving videos from path ${VIDEOS_PATH}.`);
-
 app.get("/video", (req, res) => {
 
-    const videoPath = path.join(VIDEOS_PATH, "SampleVideo_1280x720_1mb.mp4");
+    const videoPath = path.join("./videos", "SampleVideo_1280x720_1mb.mp4");
     fs.stat(videoPath, (err, stats) => {
         if (err) {
             console.error("An error occurred ");

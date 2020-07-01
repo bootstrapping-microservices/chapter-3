@@ -21,7 +21,7 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 sudo apt-get -yq update
-sudo apt-get -yq install docker-ce=5:19.03.2~3-0~ubuntu-xenial
+sudo apt-get -yq install docker-ce=5:19.03.12~3-0~ubuntu-xenial
 docker --version
 
 #
