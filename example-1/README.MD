@@ -1,6 +1,6 @@
 # Example-1
 
-Example number 1 from Chapter 3 of [Bootstrapping Microservices](http://bit.ly/2o0aDsP).
+Example number 1 from Chapter 3 of [Bootstrapping Microservices](https://www.bootstrapping-microservices.com).
 
 Chapter 3 of Bootstrapping Microservices gives instructions on how to package and publish this example using Docker and a private Docker registry.
 

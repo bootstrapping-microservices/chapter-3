@@ -1,6 +1,6 @@
 # Chapter-3
 
-Code and examples for Chapter 3 of [Bootstrapping Microservices](http://bit.ly/2o0aDsP).
+Code and examples for Chapter 3 of [Bootstrapping Microservices](https://www.bootstrapping-microservices.com).
 
 In chapter 3 you learn how to build and publish your first microservice using Docker.
 
